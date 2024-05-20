@@ -29,40 +29,26 @@ This challenge arises from two potential scenarios
 
 The objective is to determine the applicants at risk of defaulting on loans, enabling a reduction in credit losses. This case study aims to achieve this goal through Exploratory Data Analysis (EDA) using the provided dataset.
 
-## Conclusions
+## Conclusion
 
-### Univariant Analysis
+## Observations 
+
 1. Applicants who are employed for more than 10 years a for are accountable for the highest number of "Charged off" loans. 
 2. The majority of defaulted loan members are individuals, living in rented houses. 
-3. "Charged off" loans are mostly that are taken during the 4th quarter(December, November and October) primarily in December. This 	might be the reason for loan application during the holiday season.
+3. "Charged off" loans are mostly that are taken during the 4th quarter(December, November and October) primarily in 
+    December. This might be the reason for loan application during the holiday season.
 4. The trend says, the Charged Off loans are increasing year by year.
 5. Most of the Charged off loans are due to Debt Consolidation. 
 6. California state had the highest number of Charged off loan applicants. 
 7. Short term loans with a duration of 3 years or 36 months are popular among Charged Off loan applicants.
-8. The following combinations are some of the reasons for Charged Off loans
-   - Loan amounts between 5k to 10k
-   - Installment amount between 150$ to 270$
-   - Interest rate between 13% to 17%
-   - Debt to Payments ratio between 12 to 24.
+8. Applicants with annual income more than 60k and applying for either home or home improvement or small business has higher 
+    chances of defaulting.
+9. Applicants with Grade E, F, G and applying for 15k or more loan amount
+10. Applicants applying for over 12k loan amount for the purpose of credit card, debt consolidation or house are prone to default
+ 
+![image](https://github.com/mrsivanandareddy/lending-club-case-study/assets/168072331/41ca67b2-7e7f-40a8-a406-6aa73c09b268)
 
-### Bivariant Analysis
-1. Applicants with annual income more than 60k and applying for either home or home improvement or small business has higher chances 	of defaulting. 
-2. Applicants with Grade E, F, G and applying for 15k or more loan amount 
-3. Applicants applying for over 12k loan amount for the purpose of credit card, debt consolidation or house are prone to default
-4. “Charged Off” loans are likely to happen if the applicants annual income is over 70k and interest rate is between 21-24%
-5. “Charged Off” loans are likely to happen if the Loan amount is over 15k and interest rate is between 21-24%
-6. “Charged Off” loans are likely to happen with F & G grades if the interest rate is over 20%
-
-### Correlation Analysis
-1. Installment and loan amount has a strong correlation
-2. Term and interest rate has strong correlation
-3. Annual income and loan amount has a strong correlation
-4. dti has weak correlation with other fields
-5. emp_length has weak correlation with other fields
-6. pub_rec_bankrupticies has weak correlation with every field
-7. dti and annual income has negative correlation
-
-
+    
 ## Technologies Used
 
 - [Python](https://www.python.org/) - version 3.11.7
